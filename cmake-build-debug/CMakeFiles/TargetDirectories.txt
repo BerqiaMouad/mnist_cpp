@@ -1,0 +1,3 @@
+/home/mouad/CLionProjects/digit_recognition_cpp/cmake-build-debug/CMakeFiles/digit_recognition_cpp.dir
+/home/mouad/CLionProjects/digit_recognition_cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mouad/CLionProjects/digit_recognition_cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
