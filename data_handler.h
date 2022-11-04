@@ -32,12 +32,12 @@ public:
     data_handler();
     ~data_handler();
 
-    void read_feature_vector(string path);
-    void read_feature_labels(string path);
+    void read_feature_vector(const string& path);
+    void read_feature_labels(const string& path);
     void split_data();
     void count_classes();
 
-    uint32_t convert_to_little_indian(const unsigned char* bytes);
+    static uint32_t convert_to_little_indian(const unsigned char* bytes);
     vector<class data *> *get_training_data();
     vector<class data *> *get_test_data();
     vector<class data *> *get_validation_data();
