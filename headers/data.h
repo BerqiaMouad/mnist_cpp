@@ -15,6 +15,7 @@ class data {
 
     uint8_t label;
     int enum_label;
+    double dist;
 
 public:
     data();
@@ -23,11 +24,13 @@ public:
     void append_to_feature_vector(uint8_t);
     void set_label(uint8_t);
     void set_enum_label(int);
+    void set_dist(double val);
 
     int get_feature_vector_size();
     uint8_t get_label();
     uint8_t get_enum_label();
     vector<uint8_t> *get_features_vector();
+    double get_distance();
 };
 
 

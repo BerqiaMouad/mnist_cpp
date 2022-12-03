@@ -23,6 +23,10 @@ void data::set_enum_label(int val){
     enum_label = val;
 }
 
+void data::set_dist(double val){
+    dist = val;
+}
+
 int data::get_feature_vector_size(){
     return features_vector->size();
 }
@@ -34,4 +38,8 @@ uint8_t data::get_enum_label(){
 }
 vector<uint8_t > * data::get_features_vector() {
     return features_vector;
+}
+
+double data::get_distance(){
+    return dist;
 }
